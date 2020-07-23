@@ -28,6 +28,7 @@
     "gatsby-plugin-anchor-links"
   ],
   "dependencies": {
+    "gatsby-plugin-transition-link": "^1.20.2",
     "scroll-to-element": "^2.0.3"
   }
 }
