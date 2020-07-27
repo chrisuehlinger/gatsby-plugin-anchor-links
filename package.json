@@ -1,10 +1,10 @@
 {
-  "name": "gatsby-plugin-anchor-links",
+  "name": "@uehreka/gatsby-plugin-anchor-links",
   "version": "1.1.1",
   "main": "index.js",
-  "author": "Chase Ohlson <chase@chaseohlson.com>",
-  "description": "Gatsby plugin for using anchor links with a Gatsby Link component.",
-  "homepage": "https://github.com/brohlson/gatsby-plugin-anchor-links",
+  "author": "Chase Ohlson <chase@chaseohlson.com> and Chris Uehlinger <chris.uehlinger@gmail.com>",
+  "description": "Gatsby plugin for using anchor links with a Gatsby Link component (this one supports gatsby-plugin-transition-link).",
+  "homepage": "https://github.com/chrisuehlinger/gatsby-plugin-anchor-links",
   "license": "MIT",
   "scripts": {
     "build": "babel src/ --out-dir . --ignore __tests__",
@@ -18,7 +18,8 @@
     "gatsby": "^2.19.10",
     "jest": "^25.1.0",
     "prettier": "^1.19.1",
-    "react": "^16.12.0"
+    "react": "^16.12.0",
+    "react-dom": "^16.13.1"
   },
   "keywords": [
     "gatsby",
